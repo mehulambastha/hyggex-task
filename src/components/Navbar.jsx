@@ -3,7 +3,7 @@ import styles from "./styles.css"
 
 const Navbar = () => {
   return (
-    <header class="text-gray-600 body-font font-semibold">
+    <header class="text-gray-600 body-font font-semibold px-12">
       <div class="container mx-auto flex flex-wrap p-5 flex-col md:flex-row items-center">
         <img src={process.env.PUBLIC_URL + "/assets/logoAndText.svg"} width={150} alt='branding' />
         <nav class="md:ml-auto flex flex-wrap items-center text-base justify-center">
